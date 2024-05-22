@@ -1,0 +1,16 @@
+There are 2 datasets. The First dataset contains information on Hotel booking details by various customers in different cities. 
+The following attributes on the datasets are as follows:
+
+• Booking Id: Id by which a particular booking has been made.
+• Customer Id: Id by which the customer made a booking, here customer had made a booking multiple times.
+• status: shown the status of booking
+• check_in: Date when the user checks-in into the hotel
+• check_out: Date when the user checksout from the hotel
+• no_of_rooms: Total Rooms booked by each booking
+
+
+• hotel_id: It is the hotel_id in which we had booked the Room
+• amount: Amount paid by the customer.
+• Discount: Discount is given while booking
+• date_of_booking: it is the date when the booking has been created, Here we have the booking data for 1st quarter of year 2022.
+The Second dataset contains information on Hotel_id and city where it is located.
