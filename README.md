@@ -1,5 +1,3 @@
-# OYO-Business-Case-Study
-
 
 # Oyo Business Room Sales Analysis
 
