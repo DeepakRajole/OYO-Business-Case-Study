@@ -1,8 +1,4 @@
 -- load the excel data into sql database named CS.
-
-use CS
-go
-
 	
 select * from [OYO].[Hotel_Sales];
 
