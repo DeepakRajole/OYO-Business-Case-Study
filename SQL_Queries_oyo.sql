@@ -1,6 +1,9 @@
+-- load the excel data into sql database 
 SELECT * FROM dbo.Oyo_City_csv
 SELECT * FROM dbo.Oyo_Sales_csv
 
+--Data Preprocessing 
+	
 -- Add a new column 'Price' of type float, allowing null values
 ALTER TABLE dbo.Oyo_Sales_csv
 ADD Price FLOAT NULL;
@@ -30,7 +33,7 @@ SET rate = ROUND(
     END, 2
 );
 
-
+--Queries
 -- Number of hotels in different cities
 SELECT city, COUNT(hotel_id) AS [no of hotels]
 FROM dbo.Oyo_City_csv
@@ -147,11 +150,11 @@ Insights:
 1. Banglore , gurgaon & delhi were popular in the bookings, whereas Kolkata is less popular in bookings
 2. Nature of Bookings:
 
-• Nearly 50 % of the bookings were made on the day of check in only.
-• Nearly 85 % of the bookings were made with less than 4 days prior to the date of check in.
-• Very few no.of bookings were made in advance(i.e over a 1 month or 2 months).
-• Most of the bookings involved only a single room.
-• Nearly 80% of the bookings involved a stay of 1 night only.
+â€¢ Nearly 50 % of the bookings were made on the day of check in only.
+â€¢ Nearly 85 % of the bookings were made with less than 4 days prior to the date of check in.
+â€¢ Very few no.of bookings were made in advance(i.e over a 1 month or 2 months).
+â€¢ Most of the bookings involved only a single room.
+â€¢ Nearly 80% of the bookings involved a stay of 1 night only.
 
 3. Oyo should acquire more hotels in the cities of Pune, kolkata & Mumbai. Because their average room rates are comparetively higher so more revenue will come.
 
